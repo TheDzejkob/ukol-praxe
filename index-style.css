@@ -1,0 +1,77 @@
+body {
+  background: rgb(97,9,121);
+  background: radial-gradient(circle, rgba(97,9,121,0.7596288515406162) 35%, rgba(110,86,220,1) 90%);
+}
+
+header{
+
+height: 20vh;
+}
+header h1{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-family:monospace;
+    font-size: 300%;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1vw;
+    margin-right: 1vw;
+}
+
+.inputs{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;  
+}
+.inputs label{
+    font-family:monospace;
+    font-size: 150%;
+    color: white;
+}
+
+.inputs input {
+    width: 400px;
+    margin-bottom: 20px;
+    height: 20px;
+    background-color: white;
+    color: #5468ff;
+    padding: 10px;
+}
+
+.inputs input:hover {
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.inputs input:active {
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.1);
+}
+#submitBtn {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#submitBtn:hover {background-color: #3e8e41}
+
+#submitBtn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+

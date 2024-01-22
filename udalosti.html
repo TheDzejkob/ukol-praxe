@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="udalosti-style.css" >
+    <script src="udalosti-script.js"></script>
+    <title>Event Calendar</title>
+</head>
+<body>
+
+    <div id="calendar">
+        <h1>Event Calendar</h1>
+        <button id="addEventBtn">Add Event</button>
+    
+        <div id="event-form">
+            <h2>Add Event</h2>
+            <div class="form-row">
+                <label for="eventName">Event Name:</label>
+                <input type="text" id="eventName">
+            </div>
+            
+            <div class="form-row">
+                <label for="eventDescription">Event Description:</label>
+                <textarea id="eventDescription"></textarea>
+            </div>
+            
+            <div class="form-row">
+                <label for="eventDeadline">Event Deadline:</label>
+                <input type="datetime-local" id="eventDeadline">
+            </div>
+            
+            <div class="form-row">
+                <button id="saveEventBtn">Save Event</button>
+            </div>
+        </div>
+    
+        <div id="events">
+            <!-- Event items will be added here dynamically -->
+        </div>
+    
+        <script src="index-script.js"></script>
+    </div>
+    
+    </body>
+</html>
